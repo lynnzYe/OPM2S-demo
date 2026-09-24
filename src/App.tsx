@@ -7,8 +7,8 @@ export default function App() {
       <header className="border-b border-gray-100 px-6 py-20">
         <div className="mx-auto max-w-5xl text-center">
           <h1 className="mb-6 text-2xl font-bold tracking-tight md:text-4xl">
-            Real-Time Hybrid Performance-MIDI-to-Score Transcription with
-            Offline-to-Online Knowledge Distillation
+            Real-Time Hybrid Performance-MIDI-to-Score Transcription <br />
+            with Offline-to-Online Knowledge Distillation
           </h1>
           <div className="inline-flex items-center rounded border border-yellow-100 bg-yellow-50 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-yellow-700">
             Supplementary Demo Material
