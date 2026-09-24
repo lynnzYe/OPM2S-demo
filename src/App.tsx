@@ -42,11 +42,15 @@ export default function App() {
             <p className="mb-8 text-base leading-relaxed text-gray-900"></p>
 
             <aside className="mb-8 rounded-lg border border-amber-200 bg-amber-50/60 p-5 text-sm leading-relaxed text-amber-950">
+              <strong>Out-of-distribution note.</strong> The examples below
+              probe the <i>generalization</i> of our system, and are outside the
+              distribution of classical music repertoire seen during training.
+            </aside>
+            <aside className="mb-8 rounded-lg border border-amber-200 bg-amber-50/60 p-5 text-sm leading-relaxed text-amber-950">
               <strong>Latency–quality note.</strong> To achieve lower structural
               delay in these demo, we uses substantially smaller context and
               overlap windows (L=160, S=80) than our proposed setting (L=512,
-              S=256). The resulting transcription quality therefore deteriorates
-              to some extent.
+              S=256).
             </aside>
 
             {/* <p className="text-sm italic leading-relaxed text-gray-500">
